@@ -19,8 +19,8 @@ JSON Explorer was built to make browsing those large analysis reports faster and
 View and explore a single JSON file with a rich interactive UI.
 
 ```bash
-python json_viewer.py report_1266.json
-python json_viewer.py report_1266.json --port 8080
+python json_explorer_v1.py report_1266.json
+python json_explorer_v1.py report_1266.json --port 8080
 ```
 
 ### v2 — Directory Browser (`json_explorer_v2.py`) ⭐ Recommended
