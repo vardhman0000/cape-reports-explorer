@@ -15,7 +15,7 @@ JSON Explorer was built to make browsing those large analysis reports faster and
 
 ## Versions
 
-### v1 — Single File Viewer (`json_viewer.py`)
+### v1 — Single File Viewer (`json_explorer_v1.py`)
 View and explore a single JSON file with a rich interactive UI.
 
 ```bash
@@ -76,7 +76,7 @@ python json_explorer_v2.py --dir ./analyses --port 8080
 
 ```
 json-explorer/
-├── json_viewer.py          # v1 — single file viewer
+├── json_explorer_v1.py          # v1 — single file viewer
 ├── json_explorer_v2.py     # v2 — directory browser
 ├── README.md
 └── analyses/               # your report_*.json files go here (not committed)
